@@ -29,6 +29,12 @@ body {
 
 /* classes */
 
+.about-div {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 3px #aaa;
+}
+
 .social-link{
     color: var(--yellow);
 }
@@ -101,6 +107,33 @@ body {
 .carousel-img {
     height: 45vh;
 }
+
+.banner-img {
+    height: 45vh;
+}
+
+.cart-btn, .confirm-btn, .promo-btn {
+    color: #fff;
+    background-color: var(--red);
+}
+.checkout-section, .menu-section {
+    padding: 20px 0;
+}
+
+.item-caption {
+    color: var(--red);
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+.item-desc {
+    color: var(--gray1);
+    font-style: italic;
+}
+
+.menu-btn {
+    color: #fff;
+    background-color: var(--gray3);
+}
+
 /* ids */
 
 #headerSection1 {
@@ -168,4 +201,9 @@ body {
     width: 100%;
     height: 45vh;
     background-image: url(../images/chicken.avif);
+}
+
+#aboutSection {
+    padding: 40px 0;
+    background-color: var(--bg1);
 }
